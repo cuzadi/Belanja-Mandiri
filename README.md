@@ -2,13 +2,13 @@
 Belanja Mandiri adalah program python yang dibuat untuk memenuhi tugas belajar Sekolah Data Pacmann
 
 Alur program ini secara sederhana adalah sebagai berikut:
-1. Program akan meminta user untuk memasukkan kode transaksi. Kode transaksi harus numerik jika berupa string maka akan muncul pesan error
+1. Program akan meminta user untuk memasukkan kode transaksi.
 2. Setelah user memasukkan kode transaksi selanjutnya program akan menampilkan menu:
    - Tambah item
    - Hapus item
    - Revisi item
    - Selesai
-3. Jika memilih "Tambah item" maka user akan diminta memasukkan 'nama item', 'jumlah item', 'harga satuan'
+3. Jika memilih "Tambah item" maka user akan diminta memasukkan 'nama item', 'jumlah item', 'harga satuan'. Jumlah item dan harga satuan harus berupa numerik jika bukan numerik ada pesan agar memasukkan variabel numerik
 4. Jika memilih 'Hapus item' maka user akan diminta memasukkan 'nama item' yang akan dihapus setelahh itu proogram akan menghapus seluruh data terkait item tersebut
 5. Jika memilih 'Revisi item' maka user akan diminta memasukkan 'nama item' yang akan direvisi kemudian program akan meminta user memasukkan jumlah item yang baru dan harga satuannya
 6. Setiap kali user menyelesaikan penambahan item atau penghapusan item atau revisi item, maka proogram akan menampilkan daftar barang yanag sudah diinput yaitu 'nama item', 'jumlah item', 'harga satuan' dan program juga akan menghitung total nilai belanja setiap item yang diinput.
